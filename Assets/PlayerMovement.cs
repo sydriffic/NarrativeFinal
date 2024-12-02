@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         input = new Vector2(horizontal, vertical);
-        rb.velocity = input * speed * Time.deltaTime;
+        rb.velocity = input * speed * Time.fixedDeltaTime;
     }
 
     void Animate()
