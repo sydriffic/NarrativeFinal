@@ -76,7 +76,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 1cc6fefa047beb040866350b3cae7285, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 9ca95509569934e47a9b4f1f884094e6, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 4
@@ -106,7 +106,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 9ca95509569934e47a9b4f1f884094e6, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 1cc6fefa047beb040866350b3cae7285, type: 3}
     alternatePortraits: []
     spritePortraits: []
   items: []
@@ -2425,7 +2425,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
@@ -2462,6 +2474,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 4c1354c9-0034-4186-9535-8edad652828c
+        type: 0
+        typeString: 
       conversationID: 6
       isRoot: 0
       isGroup: 0
@@ -2482,8 +2498,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 21.159666, y: 7.3883386}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.7600002
   - id: 7
     fields:
     - title: Title
@@ -2615,6 +2631,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 8003b814-6afc-44ae-92fd-066bd3710bd6
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -2994,7 +3014,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "Perhaps they only reveal themselves\r\nwhen one approaches?\r"
+        value: "Perhaps they only reveal themselves\r when one on the road approaches?\r"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3111,6 +3131,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: edeee47a-f27a-492e-9022-1ba8f6004322
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -3123,7 +3147,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 157
@@ -3131,8 +3167,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 15.466007, y: 19.120506}
+    canvasZoom: 1.06
   - id: 8
     fields:
     - title: Title

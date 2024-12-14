@@ -12,7 +12,7 @@ public class Title_Chr_MOve : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        IsTriggered = false;
+        //IsTriggered = false;
     }
     public void ToggleIsTriggered()
     { IsTriggered = !IsTriggered; } 
