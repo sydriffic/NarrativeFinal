@@ -76,7 +76,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 1cc6fefa047beb040866350b3cae7285, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 9ca95509569934e47a9b4f1f884094e6, type: 3}
     alternatePortraits: []
     spritePortraits: []
   - id: 4
@@ -106,7 +106,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 9ca95509569934e47a9b4f1f884094e6, type: 3}
+    spritePortrait: {fileID: 21300000, guid: 1cc6fefa047beb040866350b3cae7285, type: 3}
     alternatePortraits: []
     spritePortraits: []
   items: []
@@ -2425,22 +2425,10 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 0}
-            m_TargetAssemblyTypeName: 
-            m_MethodName: 
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
+          m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159.43007
         y: 180
         width: 160
         height: 30
@@ -2474,6 +2462,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: 
       conversationID: 6
       isRoot: 0
       isGroup: 0
@@ -2481,7 +2473,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 7
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2489,13 +2487,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159.43005
         y: 230
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 21.159666, y: 7.3883386}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 0, y: 6.462114}
+    canvasZoom: 1.1097499
   - id: 7
     fields:
     - title: Title
@@ -2627,6 +2625,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 594e4ec5-1ca1-4cd6-8d38-dcdced6e313a
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -3006,7 +3008,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "Perhaps they only reveal themselves\r\nwhen one approaches?\r"
+        value: "Perhaps they only reveal themselves\r when one on the road approaches?\r"
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3123,6 +3125,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: e102f1c5-2366-420e-b6ee-2635281ba1fd
+        type: 0
+        typeString: 
       conversationID: 7
       isRoot: 0
       isGroup: 0
@@ -3135,7 +3141,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 157
@@ -3143,8 +3161,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 1.1062629, y: 2.6325922}
+    canvasZoom: 0.99274987
   - id: 8
     fields:
     - title: Title

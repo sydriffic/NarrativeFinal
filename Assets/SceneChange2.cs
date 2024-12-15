@@ -21,13 +21,13 @@ public class SceneChange2 : MonoBehaviour
     {
         if (collision != null)
         {
-            SceneManager.LoadScene("Look_at_Kanai");
+            SceneManager.LoadScene("Level2");
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Look_at_Kanai");
+        SceneManager.LoadScene("Level2");
     }
 
 }
