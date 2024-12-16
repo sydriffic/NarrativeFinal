@@ -338,8 +338,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 186.00002
-        y: 196
+        x: 170.14635
+        y: 183.80493
         width: 160
         height: 30
     - id: 5
@@ -372,6 +372,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: caf3d654-a406-4f6e-9b2d-b2e43146320c
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -387,8 +391,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 186.00002
-        y: 246
+        x: 173.80489
+        y: 231.3659
         width: 160
         height: 30
     entryGroups: []
@@ -3136,7 +3140,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 7
+        originDialogueID: 11
+        destinationConversationID: 8
+        destinationDialogueID: 0
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -3403,6 +3413,10 @@ MonoBehaviour:
         typeString: 
       - title: Sequence
         value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
+        value: a4315562-1838-49a5-972d-d822e12853c1
         type: 0
         typeString: 
       conversationID: 8
