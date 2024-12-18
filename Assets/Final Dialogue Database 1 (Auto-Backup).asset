@@ -2301,6 +2301,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: f72f705e-0ced-4819-aaed-95939eceaa97
+        type: 0
+        typeString: 
       conversationID: 6
       isRoot: 0
       isGroup: 0
@@ -3416,7 +3420,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: EventGuid
-        value: a4315562-1838-49a5-972d-d822e12853c1
+        value: 7e13ff35-8175-4b5c-81a0-d2da2dbe8370
         type: 0
         typeString: 
       conversationID: 8
@@ -3572,6 +3576,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: 
       conversationID: 9
       isRoot: 0
       isGroup: 0
@@ -4091,8 +4099,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: "They\u2019re here with us xuo\u2019akai... I\r can feel them in my
-          bones. Ichackta\r oro kanai (The dead and the\r deathless)."
+        value: "They\u2019re here with us xuo\u2019akai... I\r can feel them. Ichackta\r
+          oro kanai (The dead and the\r deathless)."
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
